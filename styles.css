@@ -1,0 +1,71 @@
+body{
+    background-color: aliceblue;
+    color: gray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background-color: azure;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #5f41c3, #bf5cc1);
+    width: 100%; /* Set button width to fill container */
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #2c1184, #5e0b60); /* Change background color on hover */
+    border-color: #007bff; /* Change border color on hover */
+}
+
+.table{
+    border: 2px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead th {
+    border: 1px solid #2f7cc9; /* Add border to table headers */
+    background-color: #80bbf5; /* Background color for table headers */
+    padding: 15px; /* Add padding to table headers */
+    text-align: center; /* Center align text in table headers */
+    color: #333; /* Text color */
+}
+
+/* Table row styling */
+.table tbody td {
+    border: 1px solid #7792ad; /* Add border to table cells */
+    padding: 15px; /* Add padding to table cells */
+    text-align: center; /* Center align text in table cells */
+    color: #555; /* Text color */
+}
+
+/* Alternating row colors */
+.table tbody tr:nth-child(even) {
+    background-color: #c4d6f5; /* Light gray background for even rows */
+}
